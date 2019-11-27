@@ -7,6 +7,7 @@
 
 import React from "react"
 import PropTypes from "prop-types"
+import {Global,css} from "@emotion/core";
 import { useStaticQuery, graphql } from "gatsby"
 
 import Header from "./header"
@@ -25,6 +26,12 @@ const Layout = ({ children }) => {
 
   return (
     <>
+      <Global styles = {css`
+        @import url('https://fonts.googleapis.com/css?family=Harmattan&display=swap');
+        body{
+          font-family: 'Harmattan', sans-serif;
+        }
+      `}/>
       <Header siteTitle={data.site.siteMetadata.title} />
       <div
         style={{

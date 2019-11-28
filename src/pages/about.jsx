@@ -74,7 +74,7 @@ const AboutPage = () => {
                     .gatsby-image-wrapper{
                         height: 50px;
                         width: 80%;
-                        margin: 0 auto;
+                        margin: 1rem auto;
                     }
                 }
                 /** */

@@ -42,7 +42,7 @@ const Layout = ({ children }) => {
           margin: 0 auto;
           padding: 0 10%;
            @media (max-width:600px){
-            padding: 0;
+            padding: 0 5%;
            }
 
 

@@ -30,7 +30,7 @@ const WorkCards = styled("div")`
     font-size: 140%;
 
     > div{
-      width:85%;
+      width:95%;
     }
     
   }

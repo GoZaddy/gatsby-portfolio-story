@@ -26,7 +26,16 @@ const WorkCards = styled("div")`
 
   @media(max-width: 600px){
     grid-template-columns: 1fr;
+    width: 100%;
+    font-size: 140%;
+
+    > div{
+      width:85%;
+    }
+    
   }
+
+  
 `;
 const IndexPage = () => {
 

@@ -7,9 +7,9 @@
 
 import React from "react"
 import PropTypes from "prop-types"
-import {Global,css} from "@emotion/core";
+import { Global, css } from "@emotion/core";
 import { useStaticQuery, graphql } from "gatsby"
-
+import Footer from "./Footer";
 import Header from "./header"
 import "./layout.css"
 
@@ -26,29 +26,30 @@ const Layout = ({ children }) => {
 
   return (
     <>
-      <Global styles = {css`
+      <Global styles={css`
         @import url('https://fonts.googleapis.com/css?family=Harmattan&display=swap');
         body{
           font-family: 'Harmattan', sans-serif;
           background-color: #1d2229;
         }
-      `}/>
+        .gatsby-resp-image-background-image{
+        display: none;
+    }
+      `} />
       <Header siteTitle={data.site.siteMetadata.title} />
       <div
         style={{
           margin: `0 auto`,
-          maxWidth: 960,
-          padding: `0px 1.0875rem 1.45rem`,
+          maxWidth: "",
+          padding: "0 10%",
           paddingTop: 0,
         }}
       >
+
         <main>{children}</main>
-        <footer>
-          © {new Date().getFullYear()}, Built with
-          {` `}
-          <a href="https://www.gatsbyjs.org">Gatsby</a>
-        </footer>
       </div>
+      <Footer />
+
     </>
   )
 }

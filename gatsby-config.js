@@ -59,6 +59,18 @@ module.exports = {
         path: `${__dirname}/content`,
       },
     },
+    {
+      resolve: `gatsby-plugin-mdx`,
+      options: {
+        defaultLayouts: {
+          default: require.resolve(`./src/components/layout.js`),
+        },
+        extensions: [".mdx", ".md"],
+        gatsbyRemarkPlugins:[{resolve: "gatsby-remark-images"}],
+        plugins: ["gatsby-remark-images"]
+        
+      },
+    }
     
     
     // this (optional) plugin enables Progressive Web App + Offline functionality

@@ -69,6 +69,7 @@ const IndexPage = () => {
           date={workcard.frontmatter.date}
           tags={workcard.frontmatter.tags}
           image={workcard.frontmatter.cover_image}
+          key = {workcard.frontmatter.title}
         />)}
       </WorkCards>
     </Layout>);

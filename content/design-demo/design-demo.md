@@ -14,8 +14,7 @@ description: This is a demo case study for a mobile app
 
 They never said winning was easy. Some people can’t handle success, I can. The key is to drink coconut, fresh coconut, trust me. Give thanks to the most high. Surround yourself with angels. They don’t want us to win. Give thanks to the most high. Give thanks to the most high. Fan luv. You should never complain, complaining is a weak emotion, you got life, we breathing, we blessed. We don’t see them, we will never see them. Surround yourself with angels, positive energy, beautiful people, beautiful souls, clean heart, angel.
 
-![an image](./images/alvaro-reyes-qWwpHwip31M-unsplash.jpg)
-
+![an image](../page-image.jpg)
 ## This is a heading
 
 Life is what you make it, so let’s make it. To be successful you’ve got to work hard, to make history, simple, you’ve got to make it. They don’t want us to win. Stay focused. Cloth talk. Look at the sunset, life is amazing, life is beautiful, life is what you make it. Surround yourself with angels, positive energy, beautiful people, beautiful souls, clean heart, angel. We don’t see them, we will never see them. Find peace, life is like a water fall, you’ve gotta flow. You smart, you loyal, you a genius. Stay focused.

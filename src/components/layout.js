@@ -30,6 +30,7 @@ const Layout = ({ children }) => {
         @import url('https://fonts.googleapis.com/css?family=Harmattan&display=swap');
         body{
           font-family: 'Harmattan', sans-serif;
+          background-color: #1d2229;
         }
       `}/>
       <Header siteTitle={data.site.siteMetadata.title} />

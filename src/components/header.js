@@ -25,7 +25,9 @@ const Header = ({ siteTitle }) => (
       background: #31363d;
       margin-bottom: 1.45rem;
       padding: 1.2rem 10%;
-      position: fixed;
+      position: sticky;
+      z-index: 1000;
+      top: 0;
       width: 100%;
       @media (max-width: 576px){
         padding:1.2rem 4%;

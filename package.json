@@ -1,9 +1,9 @@
 {
-  "name": "gatsby-starter-default",
+  "name": "gatsby-theme-portfolio-story",
   "private": true,
-  "description": "A simple starter to get up and developing quickly with Gatsby",
-  "version": "0.1.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "description": "Develop your portfolio site with gatsby in minutes",
+  "version": "1.0.0",
+  "author": "Yusuff Faruq <faruqyusuff437@gmail.com>",
   "dependencies": {
     "@emotion/core": "^10.0.22",
     "@emotion/styled": "^10.0.23",
@@ -31,7 +31,9 @@
     "prettier": "^1.19.1"
   },
   "keywords": [
-    "gatsby"
+    "gatsby",
+    "gatsby-plugin",
+    "gatsby-theme"
   ],
   "license": "MIT",
   "scripts": {
@@ -45,7 +47,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/gatsbyjs/gatsby-starter-default"
+    "url": "https://github.com/NodeJSs/gatsby-portfolio-story"
   },
   "bugs": {
     "url": "https://github.com/gatsbyjs/gatsby/issues"

@@ -7,6 +7,7 @@ A starter template for Gatsby for designers and developers to tell stories about
 2. Component styling with emotion
 3. Dark mode by default	
 4. Markdown for content
+5. Image Optimisation with Sharp
 
 ## Demo URL
 ---	[gatsby-portfolio-story.netlify.com](https://gatsby-portfolio-story.netlify.com/)

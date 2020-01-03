@@ -1,11 +1,8 @@
 import React from "react"
-import { Link } from "gatsby"
-import Tag from "../components/Tag";
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import { css, Global } from "@emotion/core";
 import { useStaticQuery, graphql } from "gatsby";
-import styled from "@emotion/styled";
 import Image from "gatsby-image";
 
 

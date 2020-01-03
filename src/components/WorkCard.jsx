@@ -38,6 +38,7 @@ const TagContainer = styled("div")`
 `;
 const WorkCard = (props) => {
     const tags = props.tags;
+    console.log(props.image);
     return (
         <StyledWorkCard>
             <div css={css`

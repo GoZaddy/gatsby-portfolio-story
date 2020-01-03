@@ -3,8 +3,6 @@ import styled from "@emotion/styled";
 import { graphql } from "gatsby";
 import Layout from "../components/layout";
 import { MDXRenderer } from "gatsby-plugin-mdx";
-import {Global, css} from "@emotion/core";
-import PageLayout from "../components/PageLayout";
 
 const FlexContainer = styled("div")`
     color: white;

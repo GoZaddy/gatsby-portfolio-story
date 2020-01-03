@@ -1,10 +1,6 @@
 import React from "react"
-import { Link } from "gatsby"
-import Tag from "../components/Tag";
 import Layout from "../components/layout"
-import Image from "../components/image"
 import SEO from "../components/seo"
-import { css } from "@emotion/core";
 import { useStaticQuery, graphql } from "gatsby";
 import styled from "@emotion/styled";
 import WorkCard from "../components/WorkCard";
@@ -37,6 +33,7 @@ const WorkCards = styled("div")`
 
   
 `;
+
 const IndexPage = () => {
 
   const data = useStaticQuery(graphql`

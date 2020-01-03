@@ -1,5 +1,5 @@
 {
-  "name": "gatsby-theme-portfolio-story",
+  "name": "gatsby-portfolio-story",
   "private": true,
   "description": "Develop your portfolio site with gatsby in minutes",
   "version": "1.0.0",
@@ -32,8 +32,7 @@
   },
   "keywords": [
     "gatsby",
-    "gatsby-plugin",
-    "gatsby-theme"
+    "gatsby-plugin"
   ],
   "license": "MIT",
   "scripts": {
@@ -50,6 +49,7 @@
     "url": "https://github.com/NodeJSs/gatsby-portfolio-story"
   },
   "bugs": {
-    "url": "https://github.com/gatsbyjs/gatsby/issues"
+    "url": "https://github.com/NodeJSs/gatsby-portfolio-story/issues"
   }
 }
+

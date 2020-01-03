@@ -32,24 +32,24 @@ const Layout = ({ children }) => {
           font-family: 'Harmattan', sans-serif;
           background-color: #1d2229;
         }
-        .gatsby-resp-image-background-image{
-        display: none;
-    }
+        
       `} />
       <Header siteTitle={data.site.siteMetadata.title} />
       <div
         css={css`
           margin: 0 auto;
-          padding: 0 10%;
-           @media (max-width:600px){
-            padding: 0 5%;
-           }
-
-
+          width: 100%;
+          
         `}
       >
 
-        <main>{children}</main>
+        <main
+          css={css`
+            width: 100%
+          `}
+        >
+          {children}
+        </main>
       </div>
       <Footer />
 

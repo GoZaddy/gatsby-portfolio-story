@@ -15,18 +15,37 @@ const WorkCards = styled("div")`
   grid-row-gap:30px;
   margin: 2.5rem auto;
 
-  @media(max-width: 930px){
-    grid-template-columns: 1fr 1fr;
+  @media(min-width: 1100px){
+    width: 80%;
     
   }
-
+  @media(max-width: 930px){
+    grid-template-columns: 1fr 1fr;
+    width: 85%;
+    
+  }
+  @media(max-width: 670px){
+    width: 90%;
+    
+  }
+  @media(max-width: 630px){
+    width: 95%;
+    
+  }
   @media(max-width: 600px){
     grid-template-columns: 1fr;
     width: 100%;
     font-size: 140%;
-
     > div{
-      width:95%;
+      width:70%;
+    }
+    
+    
+  }
+  
+  @media(max-width: 500px){
+    > div{
+      width:80%;
     }
     
   }

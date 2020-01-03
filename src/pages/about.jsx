@@ -37,6 +37,8 @@ const AboutPage = () => {
 
             <div css={css`
                 display: flex;
+                width: 80%;
+                margin: 0 auto;
                 > div{
                     flex: 2;
                     margin-right: 3rem;

@@ -1,6 +1,5 @@
 import React from "react";
 import styled from "@emotion/styled";
-import { checkPropTypes } from "prop-types";
 
 const StyledTag = styled("div")`
     background-color: rgba(17,17,17,0.6);

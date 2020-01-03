@@ -3,11 +3,13 @@ import styled from "@emotion/styled";
 import { graphql } from "gatsby";
 import Layout from "../components/layout";
 import { MDXRenderer } from "gatsby-plugin-mdx";
+import {css} from "@emotion/core";
 
 const FlexContainer = styled("div")`
     color: white;
     display: flex;
-    margin-top: 3rem;
+    width: 80%;
+    margin: 3rem auto 0 auto;
     hr{
         height: 2.5px;
         border-radius: 50px;
@@ -83,16 +85,18 @@ query ($title: String!) {
   
 `;
 
-const WorkInfo = styled("p")`
 
-`;
 
 const Page = ({ data: { mdx: page } }) => {
     return (
         
         <Layout>
             
-            <FlexContainer>
+            <FlexContainer 
+                css = {css`
+                    
+                `}
+            >
                 <aside>
                     <h1>{page.frontmatter.title}</h1>
                     <p>{page.frontmatter.description}</p>

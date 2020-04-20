@@ -1,6 +1,17 @@
 # Portfolio Story Starter For Gatsby
 A starter template for Gatsby for designers and developers to tell stories about their work.
 
+
+## Demo URL
+URL:  [gatsby-portfolio-story.netlify.com](https://gatsby-portfolio-story.netlify.com/)
+
+![](screenshots/screenshot1.JPG)
+
+## Perfomance
+
+![](screenshots/lighthouse.JPG)
+
+
 ## Features
 
 1. Tag support
@@ -9,8 +20,6 @@ A starter template for Gatsby for designers and developers to tell stories about
 4. Markdown for content
 5. Image Optimisation with Sharp
 
-## Demo URL
-[gatsby-portfolio-story.netlify.com](https://gatsby-portfolio-story.netlify.com/)
 
 ## Installation	
 

@@ -1,5 +1,5 @@
 # Portfolio Story Starter For Gatsby
-A starter template for Gatsby for designers and developers to tell stories about their work. Inspired by @Edmund1645
+A starter template for Gatsby for designers and developers to tell stories about their work.
 
 ## Features
 
@@ -10,10 +10,9 @@ A starter template for Gatsby for designers and developers to tell stories about
 5. Image Optimisation with Sharp
 
 ## Demo URL
----	[gatsby-portfolio-story.netlify.com](https://gatsby-portfolio-story.netlify.com/)
+[gatsby-portfolio-story.netlify.com](https://gatsby-portfolio-story.netlify.com/)
 
 ## Installation	
----	
 
 ### 1. Install Gatsby CLI tool if you don't have
 

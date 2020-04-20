@@ -1,6 +1,5 @@
 {
   "name": "gatsby-portfolio-story",
-  "private": true,
   "description": "Develop your portfolio site with gatsby in minutes",
   "version": "1.0.0",
   "author": "Yusuff Faruq <faruqyusuff437@gmail.com>",
@@ -32,7 +31,10 @@
   },
   "keywords": [
     "gatsby",
-    "gatsby-plugin"
+    "gatsby-plugin",
+    "gatsby-starter",
+    "portfolio",
+    "gatsby-portfolio-story"
   ],
   "license": "MIT",
   "scripts": {
